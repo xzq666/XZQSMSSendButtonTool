@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'XZQSMSSendButtonTool/Classes/**/.{h,m}'
+  s.source_files = 'XZQSMSSendButtonTool/Classes/**/*'
   
   # s.resource_bundles = {
   #   'XZQSMSSendButtonTool' => ['XZQSMSSendButtonTool/Assets/*.png']
