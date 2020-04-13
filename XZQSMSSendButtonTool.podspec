@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XZQSMSSendButtonTool'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '发送短信按钮组件'
 
 # This description is used to generate tags and improve search results.
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 封装发送短信按钮，提供基础样式和自定义样式，验证码发送倒计时功能。
+0.1.1 新增测试更新方法
                        DESC
 
   s.homepage         = 'https://github.com/xzq666/XZQSMSSendButtonTool'

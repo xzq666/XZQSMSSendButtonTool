@@ -1,8 +1,8 @@
 {
   "name": "XZQSMSSendButtonTool",
   "version": "0.1.0",
-  "summary": "A short description of XZQSMSSendButtonTool.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "发送短信按钮组件",
+  "description": "封装发送短信按钮，提供基础样式和自定义样式，验证码发送倒计时功能。",
   "homepage": "https://github.com/xzq666/XZQSMSSendButtonTool",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "XZQSMSSendButtonTool/Classes/**/*"
 }
