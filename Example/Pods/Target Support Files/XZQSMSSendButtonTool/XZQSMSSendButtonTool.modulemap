@@ -1,0 +1,6 @@
+framework module XZQSMSSendButtonTool {
+  umbrella header "XZQSMSSendButtonTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

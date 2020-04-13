@@ -1,0 +1,16 @@
+PODS:
+  - XZQSMSSendButtonTool (0.1.0)
+
+DEPENDENCIES:
+  - XZQSMSSendButtonTool (from `../`)
+
+EXTERNAL SOURCES:
+  XZQSMSSendButtonTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XZQSMSSendButtonTool: 375e04c9bb8ad97b0004eba24c4c8828755ea92b
+
+PODFILE CHECKSUM: f20f2ad3d4e23bdf829f9971c8247118786f3390
+
+COCOAPODS: 1.9.1

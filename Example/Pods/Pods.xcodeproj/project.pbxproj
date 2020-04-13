@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09BAC13A236C38F486906CA89C5020B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2B11C081700A96AAE3E756527B04F671 /* Pods-XZQSMSSendButtonTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8600F54F2172D3E0B45B739E82F0EBC /* Pods-XZQSMSSendButtonTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34EFA07F9AEBCB987D60BA0134E9A90D /* Pods-XZQSMSSendButtonTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F9BAD93F17C54F19CA0291E1869C1E /* Pods-XZQSMSSendButtonTool_Example-dummy.m */; };
+		387B4F10F263A6C402405D3AE7F0FF0D /* XZQSMSSendButtonTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D402989A1296C8207A8019BDC68DE29D /* XZQSMSSendButtonTool-dummy.m */; };
+		38B77FEB76CB382B32D7F384186CAB9C /* Pods-XZQSMSSendButtonTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 120BFB64C72B7B38776F352B8519CE7C /* Pods-XZQSMSSendButtonTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D9C9965C37322F58EA39685BC263CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5EDF274C4F535D3B48338009AF83AE83 /* XZQSMSSendButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF1E9FEEC8A152BAF83006F02245BDE /* XZQSMSSendButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		902C0EF178F9C49FF9641E7045BA65AB /* Pods-XZQSMSSendButtonTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C4AF9A7D447BDB01F58E595E35AEE /* Pods-XZQSMSSendButtonTool_Tests-dummy.m */; };
+		90F23ADD94C79F460BA52C239050F826 /* CustomSMSSendButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 710EF0124535ECD0822A1246FDFB6F1A /* CustomSMSSendButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94D9BE817C9CE4A1F23D97A9BB0EBFD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B7201AFD94D86EB4D29C400C287F9710 /* XZQSMSSendButton in Sources */ = {isa = PBXBuildFile; fileRef = 05B88919E2F55CC972AC97B13284B9AE /* XZQSMSSendButton */; };
+		D5736C4AA6A921835CC88E3589AF147F /* XZQSMSSendButtonTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B592F413C85D36C1502768593BC2F3C3 /* XZQSMSSendButtonTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E61EDD3FA0BD23D4896CC4F1CE4AD61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47EAC291529800AE6812DF37649BAD53;
+			remoteInfo = "Pods-XZQSMSSendButtonTool_Example";
+		};
+		A229D0D219FF8C0012A303E1D06F5D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0BD3C86EF58B48BDEE8BC56CE07F634;
+			remoteInfo = XZQSMSSendButtonTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B88919E2F55CC972AC97B13284B9AE /* XZQSMSSendButton */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = XZQSMSSendButton; path = XZQSMSSendButtonTool/Classes/XZQSMSSendButton/XZQSMSSendButton; sourceTree = "<group>"; };
+		071227F8E65FC1C0A3029EE38B75B3D0 /* Pods_XZQSMSSendButtonTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XZQSMSSendButtonTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B908A4D02279A24E7AAA2AC473864D4 /* Pods-XZQSMSSendButtonTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XZQSMSSendButtonTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		120BFB64C72B7B38776F352B8519CE7C /* Pods-XZQSMSSendButtonTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XZQSMSSendButtonTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		14F9BAD93F17C54F19CA0291E1869C1E /* Pods-XZQSMSSendButtonTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XZQSMSSendButtonTool_Example-dummy.m"; sourceTree = "<group>"; };
+		19AC7D3CD1AA5C0883438ABC8BFD41C0 /* Pods-XZQSMSSendButtonTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XZQSMSSendButtonTool_Example.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		43375DBFFAD1725C37E85558685B8F64 /* Pods-XZQSMSSendButtonTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XZQSMSSendButtonTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F0B2091E85C9DE5D42F9531CCECAE16 /* Pods-XZQSMSSendButtonTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XZQSMSSendButtonTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F32479A57B2D1E6CF700D06319D8804 /* Pods-XZQSMSSendButtonTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XZQSMSSendButtonTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4FF1E9FEEC8A152BAF83006F02245BDE /* XZQSMSSendButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XZQSMSSendButton.h; sourceTree = "<group>"; };
+		5D6279B8A371123989C85E26BFD37A94 /* XZQSMSSendButtonTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XZQSMSSendButtonTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675671E4FBCF22A360E9415D1B3EA822 /* Pods-XZQSMSSendButtonTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XZQSMSSendButtonTool_Example-Info.plist"; sourceTree = "<group>"; };
+		710EF0124535ECD0822A1246FDFB6F1A /* CustomSMSSendButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomSMSSendButton.h; sourceTree = "<group>"; };
+		747C4AF9A7D447BDB01F58E595E35AEE /* Pods-XZQSMSSendButtonTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XZQSMSSendButtonTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		7BD6A65A872472253C728C10BED70CC7 /* Pods-XZQSMSSendButtonTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XZQSMSSendButtonTool_Tests.modulemap"; sourceTree = "<group>"; };
+		7D37F00BEBB2497D26AF42E42F114776 /* Pods-XZQSMSSendButtonTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XZQSMSSendButtonTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9120DFD4CE6CDECAD2F9A3A754291DDD /* XZQSMSSendButtonTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XZQSMSSendButtonTool-prefix.pch"; sourceTree = "<group>"; };
+		96AC437003E65160539EBDFBB0F3B73A /* Pods_XZQSMSSendButtonTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XZQSMSSendButtonTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A78041739C53FAD5BD13082CF3258E7B /* XZQSMSSendButtonTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XZQSMSSendButtonTool.modulemap; sourceTree = "<group>"; };
+		A7D4455FF4DE4A49C2ABCDB3A1369FA8 /* Pods-XZQSMSSendButtonTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XZQSMSSendButtonTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADE95F7B96425297EBC430BEDABCA0B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AF8E52903693F92F024787B8C59093B1 /* Pods-XZQSMSSendButtonTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XZQSMSSendButtonTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0800F413D9C4C68BB03168F8F65868B /* XZQSMSSendButtonTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XZQSMSSendButtonTool.release.xcconfig; sourceTree = "<group>"; };
+		B4E7954CE867D77D71D46220865BE63C /* XZQSMSSendButtonTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XZQSMSSendButtonTool.debug.xcconfig; sourceTree = "<group>"; };
+		B592F413C85D36C1502768593BC2F3C3 /* XZQSMSSendButtonTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XZQSMSSendButtonTool-umbrella.h"; sourceTree = "<group>"; };
+		B75A6FC708F04D472C86EC5C5196D35A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BA0BB861DE24C6E1274321F847ED20D2 /* XZQSMSSendButtonTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XZQSMSSendButtonTool-Info.plist"; sourceTree = "<group>"; };
+		BEF4B980E9EF65E89B9EA5DEFD1B3A5B /* Pods-XZQSMSSendButtonTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XZQSMSSendButtonTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		D402989A1296C8207A8019BDC68DE29D /* XZQSMSSendButtonTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XZQSMSSendButtonTool-dummy.m"; sourceTree = "<group>"; };
+		D73D710EE1ECFD00255B9B5ACE38DF24 /* Pods-XZQSMSSendButtonTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XZQSMSSendButtonTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCAD5E77C0DFAC76DA24A62C9516298D /* Pods-XZQSMSSendButtonTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XZQSMSSendButtonTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DD1345CC53A8E7B91B432BB7B76E2571 /* XZQSMSSendButtonTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XZQSMSSendButtonTool.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		E8600F54F2172D3E0B45B739E82F0EBC /* Pods-XZQSMSSendButtonTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XZQSMSSendButtonTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		050AE36B52D1CC23AA9F633C76AF334C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D9BE817C9CE4A1F23D97A9BB0EBFD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F019C92F55BA97D5F6DD25F653927FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9C9965C37322F58EA39685BC263CE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9742901014289C7B0FE0128DFDF00500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BAC13A236C38F486906CA89C5020B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00BF6707CDF02B801DBEA9CFA795D3CC /* XZQSMSSendButtonTool */ = {
+			isa = PBXGroup;
+			children = (
+				05B88919E2F55CC972AC97B13284B9AE /* XZQSMSSendButton */,
+				BBB07A0701042675EE33F6AC3915DC70 /* Headers */,
+				06A85A2D987C78DBFECF432F98BCB894 /* Pod */,
+				61B96467F4C9290573D01F5D72A24003 /* Support Files */,
+			);
+			name = XZQSMSSendButtonTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		06A85A2D987C78DBFECF432F98BCB894 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B75A6FC708F04D472C86EC5C5196D35A /* LICENSE */,
+				ADE95F7B96425297EBC430BEDABCA0B9 /* README.md */,
+				DD1345CC53A8E7B91B432BB7B76E2571 /* XZQSMSSendButtonTool.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1E8F0BED0FFC45E524298837EFB401F1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F72CEF28C0C5FAAAFF52212DE64C9056 /* Pods-XZQSMSSendButtonTool_Example */,
+				5FF32E45159AC882956283C61E0BA5F3 /* Pods-XZQSMSSendButtonTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5FF32E45159AC882956283C61E0BA5F3 /* Pods-XZQSMSSendButtonTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7BD6A65A872472253C728C10BED70CC7 /* Pods-XZQSMSSendButtonTool_Tests.modulemap */,
+				4F0B2091E85C9DE5D42F9531CCECAE16 /* Pods-XZQSMSSendButtonTool_Tests-acknowledgements.markdown */,
+				AF8E52903693F92F024787B8C59093B1 /* Pods-XZQSMSSendButtonTool_Tests-acknowledgements.plist */,
+				747C4AF9A7D447BDB01F58E595E35AEE /* Pods-XZQSMSSendButtonTool_Tests-dummy.m */,
+				BEF4B980E9EF65E89B9EA5DEFD1B3A5B /* Pods-XZQSMSSendButtonTool_Tests-Info.plist */,
+				E8600F54F2172D3E0B45B739E82F0EBC /* Pods-XZQSMSSendButtonTool_Tests-umbrella.h */,
+				A7D4455FF4DE4A49C2ABCDB3A1369FA8 /* Pods-XZQSMSSendButtonTool_Tests.debug.xcconfig */,
+				4F32479A57B2D1E6CF700D06319D8804 /* Pods-XZQSMSSendButtonTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-XZQSMSSendButtonTool_Tests";
+			path = "Target Support Files/Pods-XZQSMSSendButtonTool_Tests";
+			sourceTree = "<group>";
+		};
+		61B96467F4C9290573D01F5D72A24003 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A78041739C53FAD5BD13082CF3258E7B /* XZQSMSSendButtonTool.modulemap */,
+				D402989A1296C8207A8019BDC68DE29D /* XZQSMSSendButtonTool-dummy.m */,
+				BA0BB861DE24C6E1274321F847ED20D2 /* XZQSMSSendButtonTool-Info.plist */,
+				9120DFD4CE6CDECAD2F9A3A754291DDD /* XZQSMSSendButtonTool-prefix.pch */,
+				B592F413C85D36C1502768593BC2F3C3 /* XZQSMSSendButtonTool-umbrella.h */,
+				B4E7954CE867D77D71D46220865BE63C /* XZQSMSSendButtonTool.debug.xcconfig */,
+				B0800F413D9C4C68BB03168F8F65868B /* XZQSMSSendButtonTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XZQSMSSendButtonTool";
+			sourceTree = "<group>";
+		};
+		BBB07A0701042675EE33F6AC3915DC70 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				710EF0124535ECD0822A1246FDFB6F1A /* CustomSMSSendButton.h */,
+				4FF1E9FEEC8A152BAF83006F02245BDE /* XZQSMSSendButton.h */,
+			);
+			name = Headers;
+			path = XZQSMSSendButtonTool/Classes/XZQSMSSendButton/Headers;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FDCBEFB9F8537076345C3DE856C1EA94 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D489D93E64AC98A5998ED116D0B21896 /* Products */,
+				1E8F0BED0FFC45E524298837EFB401F1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D489D93E64AC98A5998ED116D0B21896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071227F8E65FC1C0A3029EE38B75B3D0 /* Pods_XZQSMSSendButtonTool_Example.framework */,
+				96AC437003E65160539EBDFBB0F3B73A /* Pods_XZQSMSSendButtonTool_Tests.framework */,
+				5D6279B8A371123989C85E26BFD37A94 /* XZQSMSSendButtonTool.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F72CEF28C0C5FAAAFF52212DE64C9056 /* Pods-XZQSMSSendButtonTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				19AC7D3CD1AA5C0883438ABC8BFD41C0 /* Pods-XZQSMSSendButtonTool_Example.modulemap */,
+				D73D710EE1ECFD00255B9B5ACE38DF24 /* Pods-XZQSMSSendButtonTool_Example-acknowledgements.markdown */,
+				43375DBFFAD1725C37E85558685B8F64 /* Pods-XZQSMSSendButtonTool_Example-acknowledgements.plist */,
+				14F9BAD93F17C54F19CA0291E1869C1E /* Pods-XZQSMSSendButtonTool_Example-dummy.m */,
+				0B908A4D02279A24E7AAA2AC473864D4 /* Pods-XZQSMSSendButtonTool_Example-frameworks.sh */,
+				675671E4FBCF22A360E9415D1B3EA822 /* Pods-XZQSMSSendButtonTool_Example-Info.plist */,
+				120BFB64C72B7B38776F352B8519CE7C /* Pods-XZQSMSSendButtonTool_Example-umbrella.h */,
+				7D37F00BEBB2497D26AF42E42F114776 /* Pods-XZQSMSSendButtonTool_Example.debug.xcconfig */,
+				DCAD5E77C0DFAC76DA24A62C9516298D /* Pods-XZQSMSSendButtonTool_Example.release.xcconfig */,
+			);
+			name = "Pods-XZQSMSSendButtonTool_Example";
+			path = "Target Support Files/Pods-XZQSMSSendButtonTool_Example";
+			sourceTree = "<group>";
+		};
+		FDCBEFB9F8537076345C3DE856C1EA94 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00BF6707CDF02B801DBEA9CFA795D3CC /* XZQSMSSendButtonTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		347E6D5254199DF9DF1329E5C83C9CA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B11C081700A96AAE3E756527B04F671 /* Pods-XZQSMSSendButtonTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5807BE11C50762A6C8CF9817DC7E0A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B77FEB76CB382B32D7F384186CAB9C /* Pods-XZQSMSSendButtonTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD26FDD04EC5E7DE3B073155214A7341 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F23ADD94C79F460BA52C239050F826 /* CustomSMSSendButton.h in Headers */,
+				5EDF274C4F535D3B48338009AF83AE83 /* XZQSMSSendButton.h in Headers */,
+				D5736C4AA6A921835CC88E3589AF147F /* XZQSMSSendButtonTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47EAC291529800AE6812DF37649BAD53 /* Pods-XZQSMSSendButtonTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7D1EFF199B79BCC5786DCABCD2947E6 /* Build configuration list for PBXNativeTarget "Pods-XZQSMSSendButtonTool_Example" */;
+			buildPhases = (
+				F5807BE11C50762A6C8CF9817DC7E0A6 /* Headers */,
+				171964DBBAE08360C31173AFEE156AF2 /* Sources */,
+				6F019C92F55BA97D5F6DD25F653927FD /* Frameworks */,
+				A9A633F539CC19EDAB668012E2C16A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942CAFA4D00C16260C17CBC50956195F /* PBXTargetDependency */,
+			);
+			name = "Pods-XZQSMSSendButtonTool_Example";
+			productName = "Pods-XZQSMSSendButtonTool_Example";
+			productReference = 071227F8E65FC1C0A3029EE38B75B3D0 /* Pods_XZQSMSSendButtonTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		935197463AFE240F3768510F21BBC48E /* Pods-XZQSMSSendButtonTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4349310060241E9B311060F390C084F6 /* Build configuration list for PBXNativeTarget "Pods-XZQSMSSendButtonTool_Tests" */;
+			buildPhases = (
+				347E6D5254199DF9DF1329E5C83C9CA3 /* Headers */,
+				62CAD0D6166D968BC160B95178C008F9 /* Sources */,
+				9742901014289C7B0FE0128DFDF00500 /* Frameworks */,
+				71CDA93BDE1129636BE43A25B6937851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0563152BFE142F162ECE0C50473E14A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-XZQSMSSendButtonTool_Tests";
+			productName = "Pods-XZQSMSSendButtonTool_Tests";
+			productReference = 96AC437003E65160539EBDFBB0F3B73A /* Pods_XZQSMSSendButtonTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0BD3C86EF58B48BDEE8BC56CE07F634 /* XZQSMSSendButtonTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D45221AF8CAED40227DD14CD24E594 /* Build configuration list for PBXNativeTarget "XZQSMSSendButtonTool" */;
+			buildPhases = (
+				FD26FDD04EC5E7DE3B073155214A7341 /* Headers */,
+				6FC38FE7511F07A75CC8A8B0ADA6B438 /* Sources */,
+				050AE36B52D1CC23AA9F633C76AF334C /* Frameworks */,
+				E4C577F9E0DFFF9D80722115BE487054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XZQSMSSendButtonTool;
+			productName = XZQSMSSendButtonTool;
+			productReference = 5D6279B8A371123989C85E26BFD37A94 /* XZQSMSSendButtonTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D489D93E64AC98A5998ED116D0B21896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47EAC291529800AE6812DF37649BAD53 /* Pods-XZQSMSSendButtonTool_Example */,
+				935197463AFE240F3768510F21BBC48E /* Pods-XZQSMSSendButtonTool_Tests */,
+				E0BD3C86EF58B48BDEE8BC56CE07F634 /* XZQSMSSendButtonTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71CDA93BDE1129636BE43A25B6937851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A633F539CC19EDAB668012E2C16A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C577F9E0DFFF9D80722115BE487054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		171964DBBAE08360C31173AFEE156AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EFA07F9AEBCB987D60BA0134E9A90D /* Pods-XZQSMSSendButtonTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CAD0D6166D968BC160B95178C008F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902C0EF178F9C49FF9641E7045BA65AB /* Pods-XZQSMSSendButtonTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC38FE7511F07A75CC8A8B0ADA6B438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7201AFD94D86EB4D29C400C287F9710 /* XZQSMSSendButton in Sources */,
+				387B4F10F263A6C402405D3AE7F0FF0D /* XZQSMSSendButtonTool-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0563152BFE142F162ECE0C50473E14A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XZQSMSSendButtonTool_Example";
+			target = 47EAC291529800AE6812DF37649BAD53 /* Pods-XZQSMSSendButtonTool_Example */;
+			targetProxy = 0E61EDD3FA0BD23D4896CC4F1CE4AD61 /* PBXContainerItemProxy */;
+		};
+		942CAFA4D00C16260C17CBC50956195F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XZQSMSSendButtonTool;
+			target = E0BD3C86EF58B48BDEE8BC56CE07F634 /* XZQSMSSendButtonTool */;
+			targetProxy = A229D0D219FF8C0012A303E1D06F5D96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		123BAAA9AFDEDFC047812FC28C9367EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCAD5E77C0DFAC76DA24A62C9516298D /* Pods-XZQSMSSendButtonTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XZQSMSSendButtonTool_Example/Pods-XZQSMSSendButtonTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XZQSMSSendButtonTool_Example/Pods-XZQSMSSendButtonTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		281233EFE2568EE68F6F8C5997FD73CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D37F00BEBB2497D26AF42E42F114776 /* Pods-XZQSMSSendButtonTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XZQSMSSendButtonTool_Example/Pods-XZQSMSSendButtonTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XZQSMSSendButtonTool_Example/Pods-XZQSMSSendButtonTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3632502459B369D12562C75662661E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7D4455FF4DE4A49C2ABCDB3A1369FA8 /* Pods-XZQSMSSendButtonTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XZQSMSSendButtonTool_Tests/Pods-XZQSMSSendButtonTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XZQSMSSendButtonTool_Tests/Pods-XZQSMSSendButtonTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3ACBEEF26178028C5F303CF4AA103875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0800F413D9C4C68BB03168F8F65868B /* XZQSMSSendButtonTool.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool.modulemap";
+				PRODUCT_MODULE_NAME = XZQSMSSendButtonTool;
+				PRODUCT_NAME = XZQSMSSendButtonTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B6868B11C95EC36BD46B08AF56AD12E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E7954CE867D77D71D46220865BE63C /* XZQSMSSendButtonTool.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool.modulemap";
+				PRODUCT_MODULE_NAME = XZQSMSSendButtonTool;
+				PRODUCT_NAME = XZQSMSSendButtonTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8E46ED08546EC6215A21F5D5A84AAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F32479A57B2D1E6CF700D06319D8804 /* Pods-XZQSMSSendButtonTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XZQSMSSendButtonTool_Tests/Pods-XZQSMSSendButtonTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XZQSMSSendButtonTool_Tests/Pods-XZQSMSSendButtonTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41D45221AF8CAED40227DD14CD24E594 /* Build configuration list for PBXNativeTarget "XZQSMSSendButtonTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6868B11C95EC36BD46B08AF56AD12E1 /* Debug */,
+				3ACBEEF26178028C5F303CF4AA103875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4349310060241E9B311060F390C084F6 /* Build configuration list for PBXNativeTarget "Pods-XZQSMSSendButtonTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3632502459B369D12562C75662661E6C /* Debug */,
+				D8E46ED08546EC6215A21F5D5A84AAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7D1EFF199B79BCC5786DCABCD2947E6 /* Build configuration list for PBXNativeTarget "Pods-XZQSMSSendButtonTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281233EFE2568EE68F6F8C5997FD73CD /* Debug */,
+				123BAAA9AFDEDFC047812FC28C9367EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
