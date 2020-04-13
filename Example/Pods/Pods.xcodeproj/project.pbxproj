@@ -457,6 +457,37 @@
 			};
 			name = Release;
 		};
+		1494971CC30BC3092B9FBE6367FCFDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E7954CE867D77D71D46220865BE63C /* XZQSMSSendButtonTool.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool.modulemap";
+				PRODUCT_MODULE_NAME = XZQSMSSendButtonTool;
+				PRODUCT_NAME = XZQSMSSendButtonTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		281233EFE2568EE68F6F8C5997FD73CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D37F00BEBB2497D26AF42E42F114776 /* Pods-XZQSMSSendButtonTool_Example.debug.xcconfig */;
@@ -522,38 +553,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		3ACBEEF26178028C5F303CF4AA103875 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0800F413D9C4C68BB03168F8F65868B /* XZQSMSSendButtonTool.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool.modulemap";
-				PRODUCT_MODULE_NAME = XZQSMSSendButtonTool;
-				PRODUCT_NAME = XZQSMSSendButtonTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -678,9 +677,9 @@
 			};
 			name = Debug;
 		};
-		B6868B11C95EC36BD46B08AF56AD12E1 /* Debug */ = {
+		86F793E14EC6B75F25E83B86F438E22F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4E7954CE867D77D71D46220865BE63C /* XZQSMSSendButtonTool.debug.xcconfig */;
+			baseConfigurationReference = B0800F413D9C4C68BB03168F8F65868B /* XZQSMSSendButtonTool.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -694,7 +693,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/XZQSMSSendButtonTool/XZQSMSSendButtonTool.modulemap";
 				PRODUCT_MODULE_NAME = XZQSMSSendButtonTool;
@@ -704,10 +703,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		D8E46ED08546EC6215A21F5D5A84AAA9 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -749,8 +749,8 @@
 		41D45221AF8CAED40227DD14CD24E594 /* Build configuration list for PBXNativeTarget "XZQSMSSendButtonTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6868B11C95EC36BD46B08AF56AD12E1 /* Debug */,
-				3ACBEEF26178028C5F303CF4AA103875 /* Release */,
+				1494971CC30BC3092B9FBE6367FCFDEA /* Debug */,
+				86F793E14EC6B75F25E83B86F438E22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
